@@ -461,21 +461,22 @@ function PriceCard({
 
 function Voorwaarden() {
   const items = [
-    "Jaarlijkse cocktail- en kennelhoest-enting.",
-    "WA-verzekering voor je hond.",
-    "Je hond is op het afgesproken tijdstip aanwezig.",
-    "Je hond is sociaal; loopse teven graag vooraf melden.",
-    "Annuleren kan tot een week van tevoren — anders wordt de wandeling doorberekend.",
-    "Hus Woeffies is niet aansprakelijk voor letsel veroorzaakt door je hond bij anderen.",
-    "Bij medische noodzaak machtig je Hus Woeffies om zorg te regelen.",
+    "Uw hond dient jaarlijks de benodigde vaccinaties te ontvangen, waaronder de cocktailvaccinatie en de vaccinatie tegen kennelhoest.",
+    "U beschikt over een geldige WA-verzekering voor uw hond.",
+    "Uw hond is op het afgesproken tijdstip aanwezig voor de wandeling.",
+    "Uw hond is sociaal naar mensen en andere honden. Bij een loopse teef verzoeken wij u dit tijdig aan ons door te geven.",
+    "Een wandeling kan kosteloos worden geannuleerd tot één week voorafgaand aan de geplande wandeling. Bij een latere annulering wordt de wandeling in rekening gebracht.",
+    "Hondenuitlaatservice Woeffies is niet aansprakelijk voor schade of letsel die door uw hond aan derden of andere honden wordt veroorzaakt.",
+    "In geval van nood machtigt u Hondenuitlaatservice Woeffies om, indien noodzakelijk, veterinaire hulp in te schakelen. Eventuele kosten hiervan zijn voor rekening van de eigenaar.",
+    "Een strippenkaart is drie maanden geldig vanaf de aankoopdatum.",
   ];
   return (
-    <section className="border-y border-white/5 bg-secondary/40 py-20">
+    <section id="afspraken" className="border-y border-white/5 bg-secondary/40 py-20">
       <div className="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-[1fr_2fr]">
         <div>
-          <p className="text-sm uppercase tracking-[0.2em] text-primary-glow">Voorwaarden</p>
+          <p className="text-sm uppercase tracking-[0.2em] text-primary-glow">Afspraken</p>
           <h2 className="mt-4 font-display text-4xl font-semibold">
-            Duidelijke <span className="text-gradient">afspraken.</span>
+            Praktische <span className="text-gradient">afspraken.</span>
           </h2>
           <p className="mt-4 text-muted-foreground">
             Zo blijft het voor iedere hond — en ieder baasje — fijn en veilig.
@@ -617,10 +618,15 @@ function ContactLink({
 function Footer() {
   return (
     <footer className="border-t border-white/5 bg-background py-10">
-      <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 text-sm text-muted-foreground md:flex-row">
+      <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 text-sm text-muted-foreground md:flex-row">
         <Logo />
-        <p>KVK 69612323 · BTW NL001618259B98</p>
-        <p>© {new Date().getFullYear()} Hus Woeffies — Rotterdam</p>
+        <div className="flex items-center gap-6">
+          <a href="#afspraken" className="transition hover:text-foreground">Afspraken</a>
+          <span className="hidden text-white/10 sm:inline">|</span>
+          <p>KVK 69612323 · BTW NL001618259B98</p>
+          <span className="hidden text-white/10 sm:inline">|</span>
+          <p>© {new Date().getFullYear()} Hus Woeffies — Rotterdam</p>
+        </div>
       </div>
     </footer>
   );
