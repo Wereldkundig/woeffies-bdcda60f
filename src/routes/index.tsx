@@ -23,6 +23,7 @@ import videoAsset from "@/assets/woeffies-video.mp4.asset.json";
 import heroVideoAsset from "@/assets/woeffies-03.mp4.asset.json";
 import heroVideoAsset2 from "@/assets/woeffies-04.mp4.asset.json";
 import heroVideoAsset3 from "@/assets/woeffies-05.mp4.asset.json";
+import krijnImg from "@/assets/krijn-met-honden.png.asset.json";
 
 
 export const Route = createFileRoute("/")({
@@ -201,7 +202,8 @@ function Marquee() {
 function About() {
   return (
     <section id="over" className="mx-auto max-w-7xl px-6 py-12 md:py-16">
-      <div className="mx-auto max-w-3xl">
+      <div className="grid items-center gap-10 md:grid-cols-2">
+        <div>
           <p className="text-sm uppercase tracking-[0.2em] text-primary-glow">Over Krijn</p>
           <h2 className="mt-4 font-display text-4xl font-semibold md:text-5xl">
             Een leven lang <span className="text-gradient">tussen honden.</span>
@@ -240,6 +242,15 @@ function About() {
             ))}
           </div>
         </div>
+        <div className="relative overflow-hidden rounded-[2rem] glass">
+          <img
+            src={krijnImg.url}
+            alt="Krijn met zijn roedel honden"
+            className="h-full w-full object-cover"
+            loading="lazy"
+          />
+        </div>
+      </div>
     </section>
   );
 }
