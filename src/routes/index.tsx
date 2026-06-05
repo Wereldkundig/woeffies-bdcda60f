@@ -513,13 +513,13 @@ function PriceCard({
 
 function Voorwaarden() {
   const items = [
-    "Uw hond dient jaarlijks de benodigde vaccinaties te ontvangen, waaronder de cocktailvaccinatie en de vaccinatie tegen kennelhoest.",
-    "U beschikt over een geldige WA-verzekering voor uw hond.",
-    "Uw hond is op het afgesproken tijdstip aanwezig voor de wandeling.",
-    "Uw hond is sociaal naar mensen en andere honden. Bij een loopse teef verzoeken wij u dit tijdig aan ons door te geven.",
+    "Je hond dient jaarlijks de benodigde vaccinaties te ontvangen, waaronder de cocktailvaccinatie en de vaccinatie tegen kennelhoest.",
+    "Je beschikt over een geldige WA-verzekering voor je hond.",
+    "Je hond is op het afgesproken tijdstip aanwezig voor de wandeling.",
+    "Je hond is sociaal naar mensen en andere honden. Bij een loopse teef verzoeken we je dit tijdig door te geven.",
     "Een wandeling kan kosteloos worden geannuleerd tot één week voorafgaand aan de geplande wandeling. Bij een latere annulering wordt de wandeling in rekening gebracht.",
-    "Hondenuitlaatservice Woeffies is niet aansprakelijk voor schade of letsel die door uw hond aan derden of andere honden wordt veroorzaakt.",
-    "In geval van nood machtigt u Hondenuitlaatservice Woeffies om, indien noodzakelijk, veterinaire hulp in te schakelen. Eventuele kosten hiervan zijn voor rekening van de eigenaar.",
+    "Hondenuitlaatservice Woeffies is niet aansprakelijk voor schade of letsel die door je hond aan derden of andere honden wordt veroorzaakt.",
+    "In geval van nood machtig je Hondenuitlaatservice Woeffies om, indien noodzakelijk, veterinaire hulp in te schakelen. Eventuele kosten hiervan zijn voor rekening van de eigenaar.",
     "Een strippenkaart is drie maanden geldig vanaf de aankoopdatum.",
   ];
   return (
