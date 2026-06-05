@@ -350,8 +350,8 @@ function Info({
 function Gallery() {
   return (
     <section className="mx-auto max-w-7xl px-6 py-12">
-      <div className="grid gap-4 md:grid-cols-3">
-        {[pack1, pack2, pack3].map((src, i) => (
+      <div className="grid gap-4 md:grid-cols-2">
+        {[pack1, pack2].map((src, i) => (
           <div
             key={i}
             className={`overflow-hidden rounded-3xl ${i === 1 ? "md:translate-y-8" : ""}`}
