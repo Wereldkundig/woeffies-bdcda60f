@@ -86,7 +86,7 @@ function Header() {
   return (
     <header
       id="top"
-      className="sticky top-0 z-50 border-b border-white/5 bg-background/70 backdrop-blur-xl"
+      className="sticky top-0 z-50 border-b border-black/5 bg-background/70 backdrop-blur-xl"
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Logo />
