@@ -186,12 +186,14 @@ function Marquee() {
   ];
   return (
     <div className="border-y border-black/5 bg-secondary py-3">
-      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-10 gap-y-3 px-6 text-sm uppercase tracking-[0.2em] text-muted-foreground">
-        <MapPin className="h-4 w-4 text-primary-glow" />
+      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-6 gap-y-2 px-6 text-sm uppercase tracking-[0.2em] text-muted-foreground">
+        <MapPin className="h-4 w-4 shrink-0 text-primary-glow" />
         {items.map((i, idx) => (
-          <span key={i} className="flex items-center gap-x-10">
+          <span key={i} className="flex items-center gap-x-6">
             {i}
-            {idx < items.length - 1 && <span className="text-primary/60">•</span>}
+            {idx < items.length - 1 && (
+              <span className="text-primary/60">•</span>
+            )}
           </span>
         ))}
       </div>
