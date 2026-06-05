@@ -20,7 +20,6 @@ import pack2 from "@/assets/woeffies/pack2.jpeg";
 import pack3 from "@/assets/woeffies/pack3.jpeg";
 import logoAsset from "@/assets/woeffies-logo-transparent.png.asset.json";
 import videoAsset from "@/assets/woeffies-video.mp4.asset.json";
-import krijnMetHondenAsset from "@/assets/krijn-met-honden.jpeg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -55,7 +54,6 @@ const nav = [
 function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <TopBanner />
       <Header />
       <main>
         <Hero />
@@ -63,25 +61,13 @@ function Home() {
         <About />
         <Werkwijze />
         <VideoShowcase />
+        <Gallery />
         <Tarieven />
         <Voorwaarden />
         <Recensies />
         <Contact />
       </main>
       <Footer />
-    </div>
-  );
-}
-
-function TopBanner() {
-  return (
-    <div className="w-full overflow-hidden bg-black">
-      <img
-        src={krijnMetHondenAsset.url}
-        alt="Krijn met de roedel honden voor de Rotterdamse skyline"
-        className="h-[42vh] max-h-[640px] min-h-[280px] w-full object-cover md:h-[68vh]"
-        loading="eager"
-      />
     </div>
   );
 }
@@ -396,6 +382,20 @@ function VideoShowcase() {
   );
 }
 
+function Gallery() {
+  return (
+    <section className="mx-auto max-w-7xl px-6 py-12">
+      <div className="overflow-hidden rounded-3xl">
+        <img
+          src={pack1}
+          alt="Honden uit de roedel van Hus Woeffies"
+          className="h-80 w-full object-cover transition duration-700 hover:scale-105"
+          loading="lazy"
+        />
+      </div>
+    </section>
+  );
+}
 
 function Tarieven() {
   return (
