@@ -604,7 +604,7 @@ function ContactLink({
   return (
     <a
       href={href}
-      className="group flex items-center gap-4 rounded-2xl border border-white/5 bg-white/5 px-5 py-4 transition hover:border-primary/40 hover:bg-white/10"
+      className="group flex items-center gap-4 rounded-2xl border border-black/[0.06] bg-black/[0.03] px-5 py-4 transition hover:border-primary/40 hover:bg-black/[0.05]"
     >
       <span className="grid h-10 w-10 place-items-center rounded-full bg-[image:var(--gradient-purple)] text-primary-foreground">
         <Icon className="h-4 w-4" />
