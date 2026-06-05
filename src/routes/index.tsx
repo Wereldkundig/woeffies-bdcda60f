@@ -62,6 +62,7 @@ function Home() {
         <About />
         <Socialisatie />
         <Werkwijze />
+        <VideoShowcase />
         <Gallery />
         <Tarieven />
         <Voorwaarden />
@@ -410,16 +411,12 @@ function VideoShowcase() {
 function Gallery() {
   return (
     <section className="mx-auto max-w-7xl px-6 py-12">
-      <div className="overflow-hidden rounded-3xl shadow-2xl ring-1 ring-black/5">
-        <video
-          src={videoAsset.url}
-          className="aspect-video w-full object-cover"
-          autoPlay
-          muted
-          loop
-          playsInline
-          controls
-          preload="metadata"
+      <div className="overflow-hidden rounded-3xl">
+        <img
+          src={pack1}
+          alt="Honden uit de roedel van Hus Woeffies"
+          className="h-80 w-full object-cover transition duration-700 hover:scale-105"
+          loading="lazy"
         />
       </div>
     </section>
