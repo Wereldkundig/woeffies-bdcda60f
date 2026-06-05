@@ -20,6 +20,7 @@ import pack2 from "@/assets/woeffies/pack2.jpeg";
 import pack3 from "@/assets/woeffies/pack3.jpeg";
 import logoAsset from "@/assets/woeffies-logo-transparent.png.asset.json";
 import videoAsset from "@/assets/woeffies-video.mp4.asset.json";
+import krijnMetHondenAsset from "@/assets/krijn-met-honden.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -168,8 +169,8 @@ function Hero() {
           <div className="absolute -inset-6 rounded-[2rem] bg-[image:var(--gradient-purple)] opacity-30 blur-2xl" />
           <div className="glass animate-float relative overflow-hidden rounded-[2rem] p-2">
             <img
-              src={pack3}
-              alt="Krijn met de roedel honden in het park"
+              src={krijnMetHondenAsset.url}
+              alt="Krijn met de hele roedel honden met uitzicht over Rotterdam"
               className="h-[520px] w-full rounded-[1.6rem] object-cover"
               loading="eager"
             />
