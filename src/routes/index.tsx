@@ -259,7 +259,7 @@ function Socialisatie() {
               Veel mensen onderschatten hoe belangrijk het is voor honden om te rennen en te spelen met soortgenoten. Deze socialisatie is onontbeerlijk voor de viervoeters en kan daarnaast veel gedragsproblemen voorkomen.
             </p>
             <p>
-              Dus ook als u niet werkt en tijd heeft om met uw hond te wandelen, is een uitlaatservice, bijvoorbeeld één dag per week, aan te raden.
+              Dus ook als je niet werkt en tijd hebt om met je hond te wandelen, is een uitlaatservice, bijvoorbeeld één dag per week, aan te raden.
             </p>
           </div>
         </div>
