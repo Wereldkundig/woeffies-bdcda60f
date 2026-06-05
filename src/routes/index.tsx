@@ -18,6 +18,7 @@ import krijnImg from "@/assets/woeffies/krijn.jpg";
 import pack1 from "@/assets/woeffies/pack1.jpeg";
 import pack2 from "@/assets/woeffies/pack2.jpeg";
 import pack3 from "@/assets/woeffies/pack3.jpeg";
+import logoAsset from "@/assets/woeffies-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -71,13 +72,12 @@ function Home() {
 
 function Logo() {
   return (
-    <a href="#top" className="flex items-center gap-2 font-display text-lg font-semibold">
-      <span className="grid h-9 w-9 place-items-center rounded-full bg-[image:var(--gradient-purple)] shadow-[var(--shadow-glow)]">
-        <PawPrint className="h-5 w-5 text-primary-foreground" />
-      </span>
-      <span>
-        Hus <span className="text-gradient">Woeffies</span>
-      </span>
+    <a href="#top" className="flex items-center" aria-label="Woeffies Hondenuitlaatservice">
+      <img
+        src={logoAsset.url}
+        alt="Woeffies Hondenuitlaatservice"
+        className="h-12 w-auto md:h-14"
+      />
     </a>
   );
 }
