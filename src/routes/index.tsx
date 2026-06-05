@@ -195,7 +195,7 @@ function Marquee() {
     "Hillegersberg",
   ];
   return (
-    <div className="border-y border-white/5 bg-secondary/40 py-6">
+    <div className="border-y border-black/5 bg-secondary py-6">
       <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-10 gap-y-3 px-6 text-sm uppercase tracking-[0.2em] text-muted-foreground">
         <MapPin className="h-4 w-4 text-primary-glow" />
         {items.map((i, idx) => (
