@@ -128,7 +128,7 @@ function Hero() {
       </div>
 
       <div className="relative mx-auto max-w-7xl px-6 py-24 md:py-32">
-        <div className="max-w-2xl">
+        <div className="mx-auto max-w-2xl text-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-black/8 bg-black/[0.03] px-3 py-1 text-xs uppercase tracking-[0.18em] text-muted-foreground">
             <PawPrint className="h-3.5 w-3.5 text-primary-glow" /> Rotterdam · sinds jaren
           </span>
@@ -141,7 +141,7 @@ function Hero() {
             Schiebroeksepark. Gemiddeld is uw hond 2,5 uur van huis.
           </p>
 
-          <div className="mt-8 flex flex-wrap gap-3">
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
             <a
               href="#contact"
               className="inline-flex items-center gap-2 rounded-full bg-[image:var(--gradient-purple)] px-6 py-3 font-medium text-primary-foreground shadow-[var(--shadow-glow)] transition hover:-translate-y-0.5"
@@ -156,7 +156,7 @@ function Hero() {
             </a>
           </div>
 
-          <dl className="mt-12 grid max-w-md grid-cols-3 gap-6 text-sm">
+          <dl className="mx-auto mt-12 grid max-w-md grid-cols-3 gap-6 text-sm">
             {[
               { k: "10+", v: "jaar ervaring" },
               { k: "12", v: "max. per ronde" },
