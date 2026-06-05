@@ -41,7 +41,17 @@ export const Route = createFileRoute("/")({
         content:
           "Twee uur buitenplezier per wandeling, maximaal 12 honden per ronde. Al meer dan 10 jaar ervaring met roedels.",
       },
-      { property: "og:image", content: heroImg },
+      {
+        property: "og:image",
+        content:
+          "https://storage.googleapis.com/gpt-engineer-file-uploads/9zX11OzEwSSD0sjyn0So8RN5D7I2/social-images/social-1780589542729-logo_woeffies_vierkant_kopie.webp",
+      },
+      {
+        name: "twitter:image",
+        content:
+          "https://storage.googleapis.com/gpt-engineer-file-uploads/9zX11OzEwSSD0sjyn0So8RN5D7I2/social-images/social-1780589542729-logo_woeffies_vierkant_kopie.webp",
+      },
+      { name: "twitter:card", content: "summary" },
       { property: "og:type", content: "website" },
     ],
     links: [{ rel: "canonical", href: "/" }],
