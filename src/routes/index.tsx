@@ -61,7 +61,6 @@ function Home() {
         <About />
         <Werkwijze />
         <VideoShowcase />
-        <Gallery />
         <Tarieven />
         <Voorwaarden />
         <Recensies />
@@ -382,20 +381,6 @@ function VideoShowcase() {
   );
 }
 
-function Gallery() {
-  return (
-    <section className="mx-auto max-w-7xl px-6 py-12">
-      <div className="overflow-hidden rounded-3xl">
-        <img
-          src={pack1}
-          alt="Honden uit de roedel van Hus Woeffies"
-          className="h-80 w-full object-cover transition duration-700 hover:scale-105"
-          loading="lazy"
-        />
-      </div>
-    </section>
-  );
-}
 
 function Tarieven() {
   return (
