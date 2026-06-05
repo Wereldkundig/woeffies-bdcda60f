@@ -601,12 +601,12 @@ function Contact() {
   return (
     <section id="contact" className="relative overflow-hidden">
       <div className="pointer-events-none absolute inset-0 bg-[image:var(--gradient-hero)]" />
-      <div className="relative mx-auto max-w-7xl px-6 py-12 md:py-16">
-        <div className="glass overflow-hidden rounded-[2rem] p-10 md:p-16">
-          <div className="grid items-center gap-10 lg:grid-cols-2">
+      <div className="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 md:py-16">
+        <div className="glass overflow-hidden rounded-[2rem] p-6 sm:p-10 md:p-16">
+          <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-10">
             <div>
               <p className="text-sm uppercase tracking-[0.2em] text-primary-glow">Contact</p>
-              <h2 className="mt-4 font-display text-4xl font-semibold md:text-5xl">
+              <h2 className="mt-4 font-display text-3xl font-semibold sm:text-4xl md:text-5xl">
                 Klaar om mee te <span className="text-gradient">rennen?</span>
               </h2>
               <p className="mt-4 max-w-md text-muted-foreground">
@@ -640,10 +640,10 @@ function Contact() {
               <img
                 src={pack2}
                 alt="Roedel honden tijdens een wandeling"
-                className="h-auto w-full object-cover transition duration-700 group-hover:scale-105 sm:h-[420px]"
+                className="h-auto w-full object-contain transition duration-700 group-hover:scale-105 sm:h-[420px] sm:object-cover"
               />
-              <span className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
-              <span className="absolute bottom-6 left-6 right-6 flex items-center justify-between rounded-2xl bg-white/80 px-5 py-4 backdrop-blur-xl">
+              <span className="hidden sm:absolute sm:inset-0 sm:block sm:bg-gradient-to-t sm:from-black/70 sm:via-black/10 sm:to-transparent" />
+              <span className="flex items-center justify-between rounded-b-3xl bg-white/90 px-5 py-4 backdrop-blur-xl sm:absolute sm:bottom-6 sm:left-6 sm:right-6 sm:rounded-2xl sm:bg-white/80">
                 <span className="font-medium">Plan een kennismaking</span>
                 <ArrowRight className="h-5 w-5 text-primary-glow transition group-hover:translate-x-1" />
               </span>
@@ -667,12 +667,12 @@ function ContactLink({
   return (
     <a
       href={href}
-      className="group flex items-center gap-4 rounded-2xl border border-black/[0.06] bg-black/[0.03] px-5 py-4 transition hover:border-primary/40 hover:bg-black/[0.05]"
+      className="group flex items-center gap-4 rounded-2xl border border-black/[0.06] bg-black/[0.03] px-4 py-4 transition hover:border-primary/40 hover:bg-black/[0.05] sm:px-5"
     >
-      <span className="grid h-10 w-10 place-items-center rounded-full bg-[image:var(--gradient-purple)] text-primary-foreground">
+      <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-[image:var(--gradient-purple)] text-primary-foreground">
         <Icon className="h-4 w-4" />
       </span>
-      <span className="font-medium">{label}</span>
+      <span className="min-w-0 break-words font-medium">{label}</span>
       <ArrowRight className="ml-auto h-4 w-4 text-muted-foreground transition group-hover:translate-x-1 group-hover:text-foreground" />
     </a>
   );
@@ -683,7 +683,7 @@ function Footer() {
     <footer className="border-t border-black/5 bg-background py-5">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 text-sm text-muted-foreground md:flex-row">
         <Logo />
-        <div className="flex items-center gap-6">
+        <div className="flex flex-col items-center gap-3 text-center sm:flex-row sm:gap-6">
           <a href="#afspraken" className="transition hover:text-foreground">Afspraken</a>
           <span className="hidden text-black/10 sm:inline">|</span>
           <p>KVK 69612323 · BTW NL001618259B98</p>
