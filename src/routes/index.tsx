@@ -73,6 +73,19 @@ function Home() {
   );
 }
 
+function TopBanner() {
+  return (
+    <div className="w-full overflow-hidden bg-black">
+      <img
+        src={krijnMetHondenAsset.url}
+        alt="Krijn met de roedel honden voor de Rotterdamse skyline"
+        className="h-[42vh] max-h-[640px] min-h-[280px] w-full object-cover md:h-[68vh]"
+        loading="eager"
+      />
+    </div>
+  );
+}
+
 function Logo() {
   return (
     <a href="#top" className="flex items-center" aria-label="Woeffies Hondenuitlaatservice">
