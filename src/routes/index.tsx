@@ -156,7 +156,7 @@ function Hero() {
             </a>
           </div>
 
-          <dl className="mt-12 grid max-w-md grid-cols-3 gap-6 text-sm">
+          <dl className="mx-auto mt-12 grid max-w-md grid-cols-3 gap-6 text-sm">
             {[
               { k: "10+", v: "jaar ervaring" },
               { k: "12", v: "max. per ronde" },
