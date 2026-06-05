@@ -579,8 +579,8 @@ function Contact() {
                 alt="Roedel honden tijdens een wandeling"
                 className="h-[420px] w-full object-cover transition duration-700 group-hover:scale-105"
               />
-              <span className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent" />
-              <span className="absolute bottom-6 left-6 right-6 flex items-center justify-between rounded-2xl bg-background/70 px-5 py-4 backdrop-blur-xl">
+              <span className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+              <span className="absolute bottom-6 left-6 right-6 flex items-center justify-between rounded-2xl bg-white/80 px-5 py-4 backdrop-blur-xl">
                 <span className="font-medium">Plan een kennismaking</span>
                 <ArrowRight className="h-5 w-5 text-primary-glow transition group-hover:translate-x-1" />
               </span>
