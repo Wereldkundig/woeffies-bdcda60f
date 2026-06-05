@@ -640,7 +640,7 @@ function Contact() {
               <img
                 src={pack2}
                 alt="Roedel honden tijdens een wandeling"
-                className="h-[420px] w-full object-cover transition duration-700 group-hover:scale-105"
+                className="aspect-[4/5] w-full object-cover object-top transition duration-700 group-hover:scale-105 sm:aspect-auto sm:h-[420px]"
               />
               <span className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
               <span className="absolute bottom-6 left-6 right-6 flex items-center justify-between rounded-2xl bg-white/80 px-5 py-4 backdrop-blur-xl">
