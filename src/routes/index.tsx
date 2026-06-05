@@ -141,7 +141,7 @@ function Hero() {
             Schiebroeksepark. Gemiddeld is uw hond 2,5 uur van huis.
           </p>
 
-          <div className="mt-8 flex flex-wrap gap-3">
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
             <a
               href="#contact"
               className="inline-flex items-center gap-2 rounded-full bg-[image:var(--gradient-purple)] px-6 py-3 font-medium text-primary-foreground shadow-[var(--shadow-glow)] transition hover:-translate-y-0.5"
