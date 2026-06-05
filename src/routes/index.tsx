@@ -138,7 +138,7 @@ function Hero() {
           <p className="mt-6 max-w-xl text-lg text-muted-foreground">
             Hus Woeffies is een persoonlijke hondenuitlaatservice in Rotterdam. Kleine roedels,
             ruime bus, en één uur lekker rennen met soortgenoten in het Hoge Bergse Bos of
-            Schiebroeksepark. Gemiddeld is uw hond 2,5 uur van huis.
+            Schiebroeksepark. Gemiddeld is je hond 2,5 uur van huis.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-3">
