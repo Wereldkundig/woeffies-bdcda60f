@@ -18,7 +18,7 @@ import krijnImg from "@/assets/woeffies/krijn.jpg";
 import pack1 from "@/assets/woeffies/pack1.jpeg";
 import pack2 from "@/assets/woeffies/pack2.jpeg";
 import pack3 from "@/assets/woeffies/pack3.jpeg";
-import logoAsset from "@/assets/woeffies-logo.png.asset.json";
+import logoAsset from "@/assets/woeffies-logo-transparent.png.asset.json";
 import videoAsset from "@/assets/woeffies-video.mp4.asset.json";
 
 export const Route = createFileRoute("/")({
