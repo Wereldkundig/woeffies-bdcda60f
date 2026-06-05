@@ -129,7 +129,7 @@ function Hero() {
             <PawPrint className="h-3.5 w-3.5 text-primary-glow" /> Rotterdam · sinds jaren
           </span>
           <h1 className="mt-6 font-display text-5xl font-semibold leading-[1.05] md:text-7xl">
-            Buiten zijn waar je hond <span className="text-gradient">het gelukkigst</span> van wordt.
+            Het <span className="text-gradient">allerleukste uitje</span> voor je hond.
           </h1>
           <p className="mt-6 max-w-xl text-lg text-muted-foreground">
             Hus Woeffies is een persoonlijke hondenuitlaatservice in Rotterdam. Kleine roedels,
