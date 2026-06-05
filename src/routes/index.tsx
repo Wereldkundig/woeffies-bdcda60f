@@ -62,7 +62,6 @@ function Home() {
         <About />
         <Socialisatie />
         <Werkwijze />
-        <VideoShowcase />
         <Gallery />
         <Tarieven />
         <Voorwaarden />
