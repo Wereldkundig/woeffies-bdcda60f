@@ -23,6 +23,7 @@ import videoAsset from "@/assets/woeffies-video.mp4.asset.json";
 import heroVideoAsset from "@/assets/woeffies-03.mp4.asset.json";
 import heroVideoAsset2 from "@/assets/woeffies-04.mp4.asset.json";
 import heroVideoAsset3 from "@/assets/woeffies-05.mp4.asset.json";
+import krijnImg from "@/assets/krijn-met-honden.png.asset.json";
 
 
 export const Route = createFileRoute("/")({
