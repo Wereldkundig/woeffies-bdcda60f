@@ -216,16 +216,7 @@ function Marquee() {
 function About() {
   return (
     <section id="over" className="mx-auto max-w-7xl px-6 py-24 md:py-32">
-      <div className="grid items-center gap-12 lg:grid-cols-2">
-        <div className="relative">
-          <div className="absolute -inset-4 rounded-[2rem] bg-[image:var(--gradient-purple)] opacity-20 blur-2xl" />
-          <img
-            src={krijnImg}
-            alt="Krijn Bakelaar, oprichter Hus Woeffies"
-            className="relative h-[560px] w-full rounded-[2rem] object-cover shadow-[var(--shadow-card)]"
-          />
-        </div>
-        <div>
+      <div className="mx-auto max-w-3xl">
           <p className="text-sm uppercase tracking-[0.2em] text-primary-glow">Over Krijn</p>
           <h2 className="mt-4 font-display text-4xl font-semibold md:text-5xl">
             Een leven lang <span className="text-gradient">tussen honden.</span>
