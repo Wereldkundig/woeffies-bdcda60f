@@ -385,20 +385,13 @@ function VideoShowcase() {
 function Gallery() {
   return (
     <section className="mx-auto max-w-7xl px-6 py-12">
-      <div className="grid gap-4 md:grid-cols-2">
-        {[pack1, pack2].map((src, i) => (
-          <div
-            key={i}
-            className={`overflow-hidden rounded-3xl ${i === 1 ? "md:translate-y-8" : ""}`}
-          >
-            <img
-              src={src}
-              alt="Honden uit de roedel van Hus Woeffies"
-              className="h-80 w-full object-cover transition duration-700 hover:scale-105"
-              loading="lazy"
-            />
-          </div>
-        ))}
+      <div className="overflow-hidden rounded-3xl">
+        <img
+          src={pack1}
+          alt="Honden uit de roedel van Hus Woeffies"
+          className="h-80 w-full object-cover transition duration-700 hover:scale-105"
+          loading="lazy"
+        />
       </div>
     </section>
   );
