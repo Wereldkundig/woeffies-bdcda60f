@@ -138,7 +138,7 @@ function Hero() {
           <p className="mt-6 max-w-xl text-lg text-muted-foreground">
             Hus Woeffies is een persoonlijke hondenuitlaatservice in Rotterdam. Kleine roedels,
             ruime bus, en één uur lekker rennen met soortgenoten in het Hoge Bergse Bos of
-            Schiebroeksepark. Gemiddeld is uw hond 2,5 uur van huis.
+            Schiebroeksepark. Gemiddeld is je hond 2,5 uur van huis.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-3">
@@ -259,7 +259,7 @@ function Socialisatie() {
               Veel mensen onderschatten hoe belangrijk het is voor honden om te rennen en te spelen met soortgenoten. Deze socialisatie is onontbeerlijk voor de viervoeters en kan daarnaast veel gedragsproblemen voorkomen.
             </p>
             <p>
-              Dus ook als u niet werkt en tijd heeft om met uw hond te wandelen, is een uitlaatservice, bijvoorbeeld één dag per week, aan te raden.
+              Dus ook als je niet werkt en tijd hebt om met je hond te wandelen, is een uitlaatservice, bijvoorbeeld één dag per week, aan te raden.
             </p>
           </div>
         </div>
@@ -513,13 +513,13 @@ function PriceCard({
 
 function Voorwaarden() {
   const items = [
-    "Uw hond dient jaarlijks de benodigde vaccinaties te ontvangen, waaronder de cocktailvaccinatie en de vaccinatie tegen kennelhoest.",
-    "U beschikt over een geldige WA-verzekering voor uw hond.",
-    "Uw hond is op het afgesproken tijdstip aanwezig voor de wandeling.",
-    "Uw hond is sociaal naar mensen en andere honden. Bij een loopse teef verzoeken wij u dit tijdig aan ons door te geven.",
+    "Je hond dient jaarlijks de benodigde vaccinaties te ontvangen, waaronder de cocktailvaccinatie en de vaccinatie tegen kennelhoest.",
+    "Je beschikt over een geldige WA-verzekering voor je hond.",
+    "Je hond is op het afgesproken tijdstip aanwezig voor de wandeling.",
+    "Je hond is sociaal naar mensen en andere honden. Bij een loopse teef verzoeken we je dit tijdig door te geven.",
     "Een wandeling kan kosteloos worden geannuleerd tot één week voorafgaand aan de geplande wandeling. Bij een latere annulering wordt de wandeling in rekening gebracht.",
-    "Hondenuitlaatservice Woeffies is niet aansprakelijk voor schade of letsel die door uw hond aan derden of andere honden wordt veroorzaakt.",
-    "In geval van nood machtigt u Hondenuitlaatservice Woeffies om, indien noodzakelijk, veterinaire hulp in te schakelen. Eventuele kosten hiervan zijn voor rekening van de eigenaar.",
+    "Hondenuitlaatservice Woeffies is niet aansprakelijk voor schade of letsel die door je hond aan derden of andere honden wordt veroorzaakt.",
+    "In geval van nood machtig je Hondenuitlaatservice Woeffies om, indien noodzakelijk, veterinaire hulp in te schakelen. Eventuele kosten hiervan zijn voor rekening van de eigenaar.",
     "Een strippenkaart is drie maanden geldig vanaf de aankoopdatum.",
   ];
   return (
