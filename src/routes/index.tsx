@@ -351,10 +351,10 @@ function Info({
 function HeroVideo() {
   return (
     <section className="mx-auto max-w-7xl px-6 pb-8 pt-4 md:pb-12">
-      <div className="overflow-hidden rounded-3xl shadow-2xl ring-1 ring-black/5">
+      <div className="mx-auto w-full max-w-sm overflow-hidden rounded-3xl shadow-2xl ring-1 ring-black/5">
         <video
           src={heroVideoAsset.url}
-          className="aspect-video w-full object-cover"
+          className="aspect-[9/16] w-full object-cover"
           autoPlay
           muted
           loop
