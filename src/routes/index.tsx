@@ -175,11 +175,6 @@ function Hero() {
               loading="eager"
             />
           </div>
-          <p className="mt-4 text-[11px] uppercase leading-relaxed tracking-wide text-muted-foreground">
-            Veel mensen onderschatten hoe belangrijk het is voor honden om te rennen en te spelen met soortgenioten.
-            Deze socialisatie is onontbeerlijk voor de viervoeters en kan daarnaast vele gedrags problemen voorkomen.
-            Dus ook als u niet werkt en tijd heeft om met uw hond te wandelen is een uitlaatservice, bijvoorbeeld 1 dag in de week aan te raden.
-          </p>
           <div className="glass absolute -bottom-6 -left-6 hidden items-center gap-3 rounded-2xl p-4 sm:flex">
             <img src={pack1} alt="" className="h-12 w-12 rounded-full object-cover" />
             <div className="text-sm">
