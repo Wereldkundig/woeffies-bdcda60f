@@ -19,6 +19,7 @@ import pack1 from "@/assets/woeffies/pack1.jpeg";
 import pack2 from "@/assets/woeffies/pack2.jpeg";
 import pack3 from "@/assets/woeffies/pack3.jpeg";
 import logoAsset from "@/assets/woeffies-logo.png.asset.json";
+import videoAsset from "@/assets/woeffies-video.mp4.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -59,6 +60,7 @@ function Home() {
         <Marquee />
         <About />
         <Werkwijze />
+        <VideoShowcase />
         <Gallery />
         <Tarieven />
         <Voorwaarden />
@@ -344,6 +346,39 @@ function Info({
         <p className="text-sm text-muted-foreground">{body}</p>
       </div>
     </div>
+  );
+}
+
+function VideoShowcase() {
+  return (
+    <section className="mx-auto max-w-7xl px-6 py-20 md:py-28">
+      <div className="grid items-center gap-10 md:grid-cols-5">
+        <div className="md:col-span-2">
+          <p className="text-sm uppercase tracking-[0.2em] text-primary-glow">In actie</p>
+          <h2 className="mt-4 font-display text-4xl font-semibold md:text-5xl">
+            De roedel <span className="text-gradient">op pad.</span>
+          </h2>
+          <p className="mt-4 text-muted-foreground">
+            Een sfeerimpressie van een wandeling met Hus Woeffies — blije honden,
+            rustige begeleiding en lekker buiten zijn.
+          </p>
+        </div>
+        <div className="md:col-span-3">
+          <div className="overflow-hidden rounded-3xl shadow-2xl ring-1 ring-black/5">
+            <video
+              src={videoAsset.url}
+              className="aspect-video w-full object-cover"
+              autoPlay
+              muted
+              loop
+              playsInline
+              controls
+              preload="metadata"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
 
