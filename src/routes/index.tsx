@@ -20,7 +20,7 @@ import pack2 from "@/assets/woeffies/pack2.jpeg";
 import pack3 from "@/assets/woeffies/pack3.jpeg";
 import logoAsset from "@/assets/woeffies-logo-transparent.png.asset.json";
 import videoAsset from "@/assets/woeffies-video.mp4.asset.json";
-import krijnMetHondenAsset from "@/assets/krijn-met-honden-recht.png.asset.json";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -123,8 +123,8 @@ function Hero() {
         <div className="absolute -right-32 bottom-0 h-96 w-96 rounded-full bg-accent/30 blur-3xl" />
       </div>
 
-      <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-6 py-24 md:py-32 lg:grid-cols-2">
-        <div>
+      <div className="relative mx-auto max-w-7xl px-6 py-24 md:py-32">
+        <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-black/8 bg-black/[0.03] px-3 py-1 text-xs uppercase tracking-[0.18em] text-muted-foreground">
             <PawPrint className="h-3.5 w-3.5 text-primary-glow" /> Rotterdam · sinds jaren
           </span>
@@ -164,25 +164,6 @@ function Hero() {
               </div>
             ))}
           </dl>
-        </div>
-
-        <div className="relative">
-          <div className="absolute -inset-6 rounded-[2rem] bg-[image:var(--gradient-purple)] opacity-30 blur-2xl" />
-          <div className="glass animate-float relative overflow-hidden rounded-[2rem] p-2">
-            <img
-              src={krijnMetHondenAsset.url}
-              alt="Krijn met de hele roedel honden met uitzicht over Rotterdam"
-              className="h-[520px] w-full rounded-[1.6rem] object-cover"
-              loading="eager"
-            />
-          </div>
-          <div className="glass absolute -bottom-6 -left-6 hidden items-center gap-3 rounded-2xl p-4 sm:flex">
-            <img src={pack1} alt="" className="h-12 w-12 rounded-full object-cover" />
-            <div className="text-sm">
-              <p className="font-medium">Persoonlijke aandacht</p>
-              <p className="text-muted-foreground">voor élke woef</p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
