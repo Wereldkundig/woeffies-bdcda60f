@@ -60,6 +60,7 @@ function Home() {
         <Hero />
         <Marquee />
         <About />
+        <Socialisatie />
         <Werkwijze />
         <VideoShowcase />
         <Gallery />
