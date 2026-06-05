@@ -617,14 +617,14 @@ function ContactLink({
 
 function Footer() {
   return (
-    <footer className="border-t border-white/5 bg-background py-10">
+    <footer className="border-t border-black/5 bg-background py-10">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 text-sm text-muted-foreground md:flex-row">
         <Logo />
         <div className="flex items-center gap-6">
           <a href="#afspraken" className="transition hover:text-foreground">Afspraken</a>
-          <span className="hidden text-white/10 sm:inline">|</span>
+          <span className="hidden text-black/10 sm:inline">|</span>
           <p>KVK 69612323 · BTW NL001618259B98</p>
-          <span className="hidden text-white/10 sm:inline">|</span>
+          <span className="hidden text-black/10 sm:inline">|</span>
           <p>© {new Date().getFullYear()} Hus Woeffies — Rotterdam</p>
         </div>
       </div>
