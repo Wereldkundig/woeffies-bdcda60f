@@ -127,7 +127,7 @@ function Hero() {
         <div className="absolute -right-32 bottom-0 h-96 w-96 rounded-full bg-accent/30 blur-3xl" />
       </div>
 
-      <div className="relative mx-auto max-w-7xl px-6 py-24 md:py-32">
+      <div className="relative mx-auto max-w-7xl px-6 py-12 md:py-16">
         <div className="mx-auto max-w-2xl text-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-black/8 bg-black/[0.03] px-3 py-1 text-xs uppercase tracking-[0.18em] text-muted-foreground">
             <PawPrint className="h-3.5 w-3.5 text-primary-glow" /> Rotterdam · sinds jaren
@@ -184,7 +184,7 @@ function Marquee() {
     "Hillegersberg",
   ];
   return (
-    <div className="border-y border-black/5 bg-secondary py-6">
+    <div className="border-y border-black/5 bg-secondary py-3">
       <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-10 gap-y-3 px-6 text-sm uppercase tracking-[0.2em] text-muted-foreground">
         <MapPin className="h-4 w-4 text-primary-glow" />
         {items.map((i, idx) => (
@@ -200,7 +200,7 @@ function Marquee() {
 
 function About() {
   return (
-    <section id="over" className="mx-auto max-w-7xl px-6 py-24 md:py-32">
+    <section id="over" className="mx-auto max-w-7xl px-6 py-12 md:py-16">
       <div className="mx-auto max-w-3xl">
           <p className="text-sm uppercase tracking-[0.2em] text-primary-glow">Over Krijn</p>
           <h2 className="mt-4 font-display text-4xl font-semibold md:text-5xl">
@@ -246,7 +246,7 @@ function About() {
 
 function Socialisatie() {
   return (
-    <section className="mx-auto max-w-7xl px-6 py-24 md:py-32">
+    <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
       <div className="glass relative overflow-hidden rounded-[2rem] p-10 md:p-16">
         <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-primary/10 blur-3xl" />
         <div className="relative max-w-3xl">
@@ -293,7 +293,7 @@ function Werkwijze() {
   ];
 
   return (
-    <section id="werkwijze" className="relative overflow-hidden py-24 md:py-32">
+    <section id="werkwijze" className="relative overflow-hidden py-12 md:py-16">
       <div className="pointer-events-none absolute inset-0 bg-[image:var(--gradient-hero)] opacity-60" />
       <div className="relative mx-auto max-w-7xl px-6">
         <div className="max-w-2xl">
@@ -352,7 +352,7 @@ function Info({
 
 function HeroVideo() {
   return (
-    <section className="mx-auto max-w-7xl px-6 pb-8 pt-4 md:pb-12">
+    <section className="mx-auto max-w-7xl px-6 pb-4 pt-2 md:pb-6">
       <div className="mx-auto grid w-full max-w-5xl grid-cols-1 gap-4 sm:grid-cols-3">
         {[heroVideoAsset, heroVideoAsset2, heroVideoAsset3].map((v, i) => (
           <div key={i} className="overflow-hidden rounded-3xl shadow-2xl ring-1 ring-black/5">
@@ -375,7 +375,7 @@ function HeroVideo() {
 
 function VideoShowcase() {
   return (
-    <section className="mx-auto max-w-7xl px-6 py-20 md:py-28">
+    <section className="mx-auto max-w-7xl px-6 py-10 md:py-14">
       <div className="grid items-center gap-10 md:grid-cols-5">
         <div className="md:col-span-2">
           <p className="text-sm uppercase tracking-[0.2em] text-primary-glow">In actie</p>
@@ -408,7 +408,7 @@ function VideoShowcase() {
 
 function Gallery() {
   return (
-    <section className="mx-auto max-w-7xl px-6 py-12">
+    <section className="mx-auto max-w-7xl px-6 py-6">
       <div className="overflow-hidden rounded-3xl">
         <img
           src={pack1}
@@ -423,7 +423,7 @@ function Gallery() {
 
 function Tarieven() {
   return (
-    <section id="tarieven" className="mx-auto max-w-7xl px-6 py-24 md:py-32">
+    <section id="tarieven" className="mx-auto max-w-7xl px-6 py-12 md:py-16">
       <div className="max-w-2xl">
         <p className="text-sm uppercase tracking-[0.2em] text-primary-glow">Tarieven</p>
         <h2 className="mt-4 font-display text-4xl font-semibold md:text-5xl">
@@ -523,7 +523,7 @@ function Voorwaarden() {
     "Een strippenkaart is drie maanden geldig vanaf de aankoopdatum.",
   ];
   return (
-    <section id="afspraken" className="border-y border-black/5 bg-secondary py-20">
+    <section id="afspraken" className="border-y border-black/5 bg-secondary py-10">
       <div className="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-[1fr_2fr]">
         <div>
           <p className="text-sm uppercase tracking-[0.2em] text-primary-glow">Afspraken</p>
@@ -566,7 +566,7 @@ function Recensies() {
     },
   ];
   return (
-    <section className="mx-auto max-w-7xl px-6 py-24 md:py-32">
+    <section className="mx-auto max-w-7xl px-6 py-12 md:py-16">
       <p className="text-sm uppercase tracking-[0.2em] text-primary-glow">Recensies</p>
       <h2 className="mt-4 max-w-3xl font-display text-4xl font-semibold md:text-5xl">
         Wat baasjes <span className="text-gradient">vertellen.</span>
@@ -590,7 +590,7 @@ function Contact() {
   return (
     <section id="contact" className="relative overflow-hidden">
       <div className="pointer-events-none absolute inset-0 bg-[image:var(--gradient-hero)]" />
-      <div className="relative mx-auto max-w-7xl px-6 py-24 md:py-32">
+      <div className="relative mx-auto max-w-7xl px-6 py-12 md:py-16">
         <div className="glass overflow-hidden rounded-[2rem] p-10 md:p-16">
           <div className="grid items-center gap-10 lg:grid-cols-2">
             <div>
@@ -669,7 +669,7 @@ function ContactLink({
 
 function Footer() {
   return (
-    <footer className="border-t border-black/5 bg-background py-10">
+    <footer className="border-t border-black/5 bg-background py-5">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 text-sm text-muted-foreground md:flex-row">
         <Logo />
         <div className="flex items-center gap-6">
