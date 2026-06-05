@@ -411,8 +411,7 @@ function VideoShowcase() {
               muted
               loop
               playsInline
-              controls
-              preload="metadata"
+              preload="auto"
             />
           </div>
         </div>
