@@ -60,6 +60,7 @@ function Home() {
         <Hero />
         <Marquee />
         <About />
+        <Socialisatie />
         <Werkwijze />
         <VideoShowcase />
         <Gallery />
@@ -261,6 +262,30 @@ function About() {
                 <span className="text-sm">{b.label}</span>
               </div>
             ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Socialisatie() {
+  return (
+    <section className="mx-auto max-w-7xl px-6 py-24 md:py-32">
+      <div className="glass relative overflow-hidden rounded-[2rem] p-10 md:p-16">
+        <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-primary/10 blur-3xl" />
+        <div className="relative max-w-3xl">
+          <p className="text-sm uppercase tracking-[0.2em] text-primary-glow">Waarom een uitlaatservice</p>
+          <h2 className="mt-4 font-display text-3xl font-semibold md:text-4xl">
+            Samen rennen en spelen met <span className="text-gradient">soortgenoten.</span>
+          </h2>
+          <div className="mt-6 space-y-4 text-lg text-muted-foreground leading-relaxed">
+            <p>
+              Veel mensen onderschatten hoe belangrijk het is voor honden om te rennen en te spelen met soortgenoten. Deze socialisatie is onontbeerlijk voor de viervoeters en kan daarnaast veel gedragsproblemen voorkomen.
+            </p>
+            <p>
+              Dus ook als u niet werkt en tijd heeft om met uw hond te wandelen, is een uitlaatservice, bijvoorbeeld één dag per week, aan te raden.
+            </p>
           </div>
         </div>
       </div>
