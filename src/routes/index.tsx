@@ -85,7 +85,7 @@ function Logo() {
       <img
         src={logoAsset.url}
         alt="Woeffies Hondenuitlaatservice"
-        className="h-[72px] w-auto md:h-[84px]"
+        className="h-14 w-auto sm:h-[72px] md:h-[84px]"
       />
     </a>
   );
@@ -97,7 +97,7 @@ function Header() {
       id="top"
       className="sticky top-0 z-50 border-b border-black/5 bg-background/70 backdrop-blur-xl"
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6 sm:py-4">
         <Logo />
         <nav className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
           {nav.map((n) => (
@@ -108,7 +108,7 @@ function Header() {
         </nav>
         <a
           href="#contact"
-          className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition hover:bg-primary-glow"
+          className="inline-flex shrink-0 items-center gap-2 rounded-full bg-primary px-4 py-2.5 text-sm font-medium text-primary-foreground transition hover:bg-primary-glow sm:px-5"
         >
           Aanmelden <ArrowRight className="h-4 w-4" />
         </a>
@@ -128,12 +128,12 @@ function Hero() {
         <div className="absolute -right-32 bottom-0 h-96 w-96 rounded-full bg-accent/30 blur-3xl" />
       </div>
 
-      <div className="relative mx-auto max-w-7xl px-6 py-12 md:py-16">
+      <div className="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 md:py-16">
         <div className="mx-auto max-w-2xl text-left">
           <span className="inline-flex items-center gap-2 rounded-full border border-black/8 bg-black/[0.03] px-3 py-1 text-xs uppercase tracking-[0.18em] text-muted-foreground">
             <PawPrint className="h-3.5 w-3.5 text-primary-glow" /> Rotterdam · sinds jaren
           </span>
-          <h1 className="mt-6 font-display text-5xl font-semibold leading-[1.05] md:text-7xl">
+          <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.05] sm:text-5xl md:text-7xl">
             Het <span className="text-gradient">allerleukste uitje</span> voor je hond.
           </h1>
           <p className="mt-6 max-w-xl text-lg text-muted-foreground">
@@ -142,7 +142,7 @@ function Hero() {
             Schiebroeksepark. Gemiddeld is je hond 2,5 uur van huis.
           </p>
 
-          <div className="mt-8 flex flex-wrap justify-center gap-3">
+          <div className="mt-8 flex flex-wrap justify-start gap-3">
             <a
               href="#contact"
               className="inline-flex items-center gap-2 rounded-full bg-[image:var(--gradient-purple)] px-6 py-3 font-medium text-primary-foreground shadow-[var(--shadow-glow)] transition hover:-translate-y-0.5"
@@ -157,7 +157,7 @@ function Hero() {
             </a>
           </div>
 
-          <dl className="mx-auto mt-12 grid max-w-md grid-cols-3 gap-6 text-sm">
+          <dl className="mt-12 grid max-w-md grid-cols-3 gap-6 text-sm">
             {[
               { k: "10+", v: "jaar ervaring" },
               { k: "12", v: "max. per ronde" },
