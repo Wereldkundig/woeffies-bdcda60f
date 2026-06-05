@@ -21,6 +21,7 @@ import pack3 from "@/assets/woeffies/pack3.jpeg";
 import logoAsset from "@/assets/woeffies-logo-transparent.png.asset.json";
 import videoAsset from "@/assets/woeffies-video.mp4.asset.json";
 import heroVideoAsset from "@/assets/woeffies-03.mp4.asset.json";
+import heroVideoAsset2 from "@/assets/woeffies-04.mp4.asset.json";
 
 
 export const Route = createFileRoute("/")({
@@ -351,17 +352,21 @@ function Info({
 function HeroVideo() {
   return (
     <section className="mx-auto max-w-7xl px-6 pb-8 pt-4 md:pb-12">
-      <div className="mx-auto w-full max-w-sm overflow-hidden rounded-3xl shadow-2xl ring-1 ring-black/5">
-        <video
-          src={heroVideoAsset.url}
-          className="aspect-[9/16] w-full object-cover"
-          autoPlay
-          muted
-          loop
-          playsInline
-          controls
-          preload="metadata"
-        />
+      <div className="mx-auto grid w-full max-w-3xl grid-cols-1 gap-4 sm:grid-cols-2">
+        {[heroVideoAsset, heroVideoAsset2].map((v, i) => (
+          <div key={i} className="overflow-hidden rounded-3xl shadow-2xl ring-1 ring-black/5">
+            <video
+              src={v.url}
+              className="aspect-[9/16] w-full object-cover"
+              autoPlay
+              muted
+              loop
+              playsInline
+              controls
+              preload="metadata"
+            />
+          </div>
+        ))}
       </div>
     </section>
   );
