@@ -128,7 +128,7 @@ function Hero() {
       </div>
 
       <div className="relative mx-auto max-w-7xl px-6 py-12 md:py-16">
-        <div className="mx-auto max-w-2xl text-center">
+        <div className="mx-auto max-w-2xl text-left">
           <span className="inline-flex items-center gap-2 rounded-full border border-black/8 bg-black/[0.03] px-3 py-1 text-xs uppercase tracking-[0.18em] text-muted-foreground">
             <PawPrint className="h-3.5 w-3.5 text-primary-glow" /> Rotterdam · sinds jaren
           </span>
