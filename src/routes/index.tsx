@@ -121,7 +121,7 @@ function Hero() {
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-6 py-24 md:py-32 lg:grid-cols-2">
         <div>
-          <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs uppercase tracking-[0.18em] text-muted-foreground">
+          <span className="inline-flex items-center gap-2 rounded-full border border-black/8 bg-black/[0.03] px-3 py-1 text-xs uppercase tracking-[0.18em] text-muted-foreground">
             <PawPrint className="h-3.5 w-3.5 text-primary-glow" /> Rotterdam · sinds jaren
           </span>
           <h1 className="mt-6 font-display text-5xl font-semibold leading-[1.05] md:text-7xl">
@@ -142,7 +142,7 @@ function Hero() {
             </a>
             <a
               href="#werkwijze"
-              className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-6 py-3 font-medium transition hover:bg-white/10"
+              className="inline-flex items-center gap-2 rounded-full border border-black/8 bg-black/[0.03] px-6 py-3 font-medium transition hover:bg-black/[0.06]"
             >
               Hoe het werkt
             </a>
