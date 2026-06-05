@@ -57,12 +57,12 @@ function Home() {
     <div className="min-h-screen bg-background text-foreground">
       <Header />
       <main>
-        <VideoShowcase />
         <Hero />
         <Marquee />
         <About />
         <Socialisatie />
         <Werkwijze />
+        <VideoShowcase />
         <Gallery />
         <Tarieven />
         <Voorwaarden />
