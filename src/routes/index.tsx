@@ -156,7 +156,7 @@ function Hero() {
             {[
               { k: "10+", v: "jaar ervaring" },
               { k: "12", v: "max. per ronde" },
-              { k: "2 uur", v: "per wandeling" },
+              { k: "1 uur", v: "per wandeling" },
             ].map((s) => (
               <div key={s.k}>
                 <dt className="font-display text-3xl text-foreground">{s.k}</dt>
