@@ -86,7 +86,7 @@ function Header() {
   return (
     <header
       id="top"
-      className="sticky top-0 z-50 border-b border-white/5 bg-background/70 backdrop-blur-xl"
+      className="sticky top-0 z-50 border-b border-black/5 bg-background/70 backdrop-blur-xl"
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Logo />
@@ -121,7 +121,7 @@ function Hero() {
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-6 py-24 md:py-32 lg:grid-cols-2">
         <div>
-          <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs uppercase tracking-[0.18em] text-muted-foreground">
+          <span className="inline-flex items-center gap-2 rounded-full border border-black/8 bg-black/[0.03] px-3 py-1 text-xs uppercase tracking-[0.18em] text-muted-foreground">
             <PawPrint className="h-3.5 w-3.5 text-primary-glow" /> Rotterdam · sinds jaren
           </span>
           <h1 className="mt-6 font-display text-5xl font-semibold leading-[1.05] md:text-7xl">
@@ -142,7 +142,7 @@ function Hero() {
             </a>
             <a
               href="#werkwijze"
-              className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-6 py-3 font-medium transition hover:bg-white/10"
+              className="inline-flex items-center gap-2 rounded-full border border-black/8 bg-black/[0.03] px-6 py-3 font-medium transition hover:bg-black/[0.06]"
             >
               Hoe het werkt
             </a>
@@ -195,7 +195,7 @@ function Marquee() {
     "Hillegersberg",
   ];
   return (
-    <div className="border-y border-white/5 bg-secondary/40 py-6">
+    <div className="border-y border-black/5 bg-secondary py-6">
       <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-10 gap-y-3 px-6 text-sm uppercase tracking-[0.2em] text-muted-foreground">
         <MapPin className="h-4 w-4 text-primary-glow" />
         {items.map((i, idx) => (
@@ -471,7 +471,7 @@ function Voorwaarden() {
     "Een strippenkaart is drie maanden geldig vanaf de aankoopdatum.",
   ];
   return (
-    <section id="afspraken" className="border-y border-white/5 bg-secondary/40 py-20">
+    <section id="afspraken" className="border-y border-black/5 bg-secondary py-20">
       <div className="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-[1fr_2fr]">
         <div>
           <p className="text-sm uppercase tracking-[0.2em] text-primary-glow">Afspraken</p>
@@ -579,8 +579,8 @@ function Contact() {
                 alt="Roedel honden tijdens een wandeling"
                 className="h-[420px] w-full object-cover transition duration-700 group-hover:scale-105"
               />
-              <span className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent" />
-              <span className="absolute bottom-6 left-6 right-6 flex items-center justify-between rounded-2xl bg-background/70 px-5 py-4 backdrop-blur-xl">
+              <span className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+              <span className="absolute bottom-6 left-6 right-6 flex items-center justify-between rounded-2xl bg-white/80 px-5 py-4 backdrop-blur-xl">
                 <span className="font-medium">Plan een kennismaking</span>
                 <ArrowRight className="h-5 w-5 text-primary-glow transition group-hover:translate-x-1" />
               </span>
@@ -604,7 +604,7 @@ function ContactLink({
   return (
     <a
       href={href}
-      className="group flex items-center gap-4 rounded-2xl border border-white/5 bg-white/5 px-5 py-4 transition hover:border-primary/40 hover:bg-white/10"
+      className="group flex items-center gap-4 rounded-2xl border border-black/[0.06] bg-black/[0.03] px-5 py-4 transition hover:border-primary/40 hover:bg-black/[0.05]"
     >
       <span className="grid h-10 w-10 place-items-center rounded-full bg-[image:var(--gradient-purple)] text-primary-foreground">
         <Icon className="h-4 w-4" />
@@ -617,14 +617,14 @@ function ContactLink({
 
 function Footer() {
   return (
-    <footer className="border-t border-white/5 bg-background py-10">
+    <footer className="border-t border-black/5 bg-background py-10">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 text-sm text-muted-foreground md:flex-row">
         <Logo />
         <div className="flex items-center gap-6">
           <a href="#afspraken" className="transition hover:text-foreground">Afspraken</a>
-          <span className="hidden text-white/10 sm:inline">|</span>
+          <span className="hidden text-black/10 sm:inline">|</span>
           <p>KVK 69612323 · BTW NL001618259B98</p>
-          <span className="hidden text-white/10 sm:inline">|</span>
+          <span className="hidden text-black/10 sm:inline">|</span>
           <p>© {new Date().getFullYear()} Hus Woeffies — Rotterdam</p>
         </div>
       </div>
