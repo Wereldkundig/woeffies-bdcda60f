@@ -20,6 +20,7 @@ import pack2 from "@/assets/woeffies/pack2.jpeg";
 import pack3 from "@/assets/woeffies/pack3.jpeg";
 import logoAsset from "@/assets/woeffies-logo-transparent.png.asset.json";
 import videoAsset from "@/assets/woeffies-video.mp4.asset.json";
+import heroVideoAsset from "@/assets/woeffies-01.mp4.asset.json";
 
 
 export const Route = createFileRoute("/")({
@@ -58,6 +59,7 @@ function Home() {
       <Header />
       <main>
         <Hero />
+        <HeroVideo />
         <Marquee />
         <About />
         <Socialisatie />
@@ -343,6 +345,25 @@ function Info({
         <p className="text-sm text-muted-foreground">{body}</p>
       </div>
     </div>
+  );
+}
+
+function HeroVideo() {
+  return (
+    <section className="mx-auto max-w-7xl px-6 pb-8 pt-4 md:pb-12">
+      <div className="overflow-hidden rounded-3xl shadow-2xl ring-1 ring-black/5">
+        <video
+          src={heroVideoAsset.url}
+          className="aspect-video w-full object-cover"
+          autoPlay
+          muted
+          loop
+          playsInline
+          controls
+          preload="metadata"
+        />
+      </div>
+    </section>
   );
 }
 
