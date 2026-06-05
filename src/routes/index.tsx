@@ -353,8 +353,8 @@ function Info({
 function HeroVideo() {
   return (
     <section className="mx-auto max-w-7xl px-6 pb-8 pt-4 md:pb-12">
-      <div className="mx-auto grid w-full max-w-3xl grid-cols-1 gap-4 sm:grid-cols-2">
-        {[heroVideoAsset, heroVideoAsset2].map((v, i) => (
+      <div className="mx-auto grid w-full max-w-5xl grid-cols-1 gap-4 sm:grid-cols-3">
+        {[heroVideoAsset, heroVideoAsset2, heroVideoAsset3].map((v, i) => (
           <div key={i} className="overflow-hidden rounded-3xl shadow-2xl ring-1 ring-black/5">
             <video
               src={v.url}
