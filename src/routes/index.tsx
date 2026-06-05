@@ -20,7 +20,7 @@ import pack2 from "@/assets/woeffies/pack2.jpeg";
 import pack3 from "@/assets/woeffies/pack3.jpeg";
 import logoAsset from "@/assets/woeffies-logo-transparent.png.asset.json";
 import videoAsset from "@/assets/woeffies-video.mp4.asset.json";
-import heroVideoAsset from "@/assets/woeffies-01.mp4.asset.json";
+import heroVideoAsset from "@/assets/woeffies-02.mp4.asset.json";
 
 
 export const Route = createFileRoute("/")({
