@@ -471,7 +471,7 @@ function Voorwaarden() {
     "Een strippenkaart is drie maanden geldig vanaf de aankoopdatum.",
   ];
   return (
-    <section id="afspraken" className="border-y border-white/5 bg-secondary/40 py-20">
+    <section id="afspraken" className="border-y border-black/5 bg-secondary py-20">
       <div className="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-[1fr_2fr]">
         <div>
           <p className="text-sm uppercase tracking-[0.2em] text-primary-glow">Afspraken</p>
