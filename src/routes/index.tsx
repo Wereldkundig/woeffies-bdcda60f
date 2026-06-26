@@ -299,7 +299,7 @@ function Werkwijze() {
     },
     {
       n: "03",
-      t: "Twee uur buiten",
+      t: "Eén uur buiten",
       d: "Een uur lekker rennen in het Hoge Bergse Bos of Schiebroeksepark — met max. 12 honden per ronde.",
     },
     {
