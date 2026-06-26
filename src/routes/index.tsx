@@ -305,7 +305,7 @@ function Werkwijze() {
     {
       n: "04",
       t: "Thuis & update",
-      d: "Schoongemaakt thuisgebracht. Via WhatsApp of schriftje hou ik je op de hoogte.",
+      d: "Bij thuiskomst wordt je hond, wanneer het geregend heeft, handdoek-droog teruggebracht. Mocht er iets anders zijn met je hond, dan bericht ik je via WhatsApp.",
     },
   ];
 
