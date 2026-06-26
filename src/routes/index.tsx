@@ -227,8 +227,8 @@ function About() {
               heen een hechte band heb opgebouwd met de roedel en hun eigenaren.
             </p>
             <p>
-              Zelf heb ik twee Franse Buldog meisjes die regelmatig meegaan en de boel in de gaten
-              houden.
+              Zelf heb ik twee Franse bulldogs, allebei dames, die regelmatig meegaan en een oogje
+              in het zeil houden. Ze corrigeren, waar nodig, ongeacht de grootte van de hond.
             </p>
           </div>
 
