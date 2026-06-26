@@ -455,7 +455,7 @@ function Tarieven() {
           subtitle="1 hond"
           price="160"
           features={[
-            "10 wandelingen van ca. 2 uur",
+            "10 wandelingen van ongeveer 1 uur",
             "Ophalen & thuisbrengen",
             "Eigen bench in de bus",
             "Updates via WhatsApp",
@@ -467,7 +467,7 @@ function Tarieven() {
           subtitle="2 honden, 1 adres"
           price="240"
           features={[
-            "10 wandelingen van ca. 2 uur",
+            "10 wandelingen van ongeveer 1 uur",
             "Samen in dezelfde roedel",
             "Persoonlijke begeleiding",
             "Updates via WhatsApp",
