@@ -300,7 +300,7 @@ function Werkwijze() {
     {
       n: "03",
       t: "Lekker buiten ravotten",
-      d: "Een uur lekker rennen in het Hoge Bergse Bos of Schiebroeksepark — met max. 12 honden per ronde.",
+      d: "Een uur lekker rennen in het Hoge Bergse Bos, Schiebroeksepark of hondenstrandje Barendrecht met de roedel.",
     },
     {
       n: "04",
