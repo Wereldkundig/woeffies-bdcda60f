@@ -338,7 +338,7 @@ function Werkwijze() {
         <div className="glass mt-10 grid gap-6 rounded-2xl p-6 md:grid-cols-3">
           <Info icon={Clock} title="Ronde 1" body="Ophalen vanaf 7.30 uur (afhankelijk van het adres), ma t/m do" />
           <Info icon={Clock} title="Ronde 2" body="Ophalen vanaf 10.00 uur (afhankelijk van het adres), maandag t/m vrijdag" />
-          <Info icon={MapPin} title="Parken" body="Hoge Bergse Bos · Schiebroeksepark" />
+          <Info icon={MapPin} title="Honden-uitlaatgebieden" body="Hoge Bergse Bos · Schiebroeksepark" />
         </div>
       </div>
     </section>
