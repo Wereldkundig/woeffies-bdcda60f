@@ -424,11 +424,11 @@ function VideoShowcase() {
 function Gallery() {
   return (
     <section className="mx-auto max-w-7xl px-6 py-6">
-      <div className="overflow-hidden rounded-3xl">
+      <div className="rounded-3xl">
         <img
           src={pack1}
           alt="Honden uit de roedel van Hus Woeffies"
-          className="h-80 w-full object-cover transition duration-700 hover:scale-105"
+          className="h-auto w-full rounded-3xl"
           loading="lazy"
         />
       </div>
