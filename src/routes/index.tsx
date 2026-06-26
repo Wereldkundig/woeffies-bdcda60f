@@ -223,9 +223,8 @@ function About() {
             </p>
             <p>
               Ik ben dol op het buitenleven, ongeacht het seizoen, en heb van mijn grootste hobby
-              eindelijk m'n werk gemaakt. Ik woon in de Hoeksche Waard en haal de honden op in
-              Rotterdam, waar ik door de jaren heen een hechte band heb opgebouwd met de roedel en
-              hun mensen.
+              eindelijk m'n werk gemaakt. Ik haal de honden op in Rotterdam, waar ik door de jaren
+              heen een hechte band heb opgebouwd met de roedel en hun eigenaren.
             </p>
             <p>
               Zelf heb ik twee Franse Buldog meisjes die regelmatig meegaan en de boel in de gaten
