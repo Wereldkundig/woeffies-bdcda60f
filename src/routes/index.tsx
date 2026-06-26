@@ -503,11 +503,6 @@ function PriceCard({
           : "glass"
       }`}
     >
-      {highlight && (
-        <span className="absolute right-6 top-6 rounded-full bg-black/30 px-3 py-1 text-xs uppercase tracking-widest">
-          Populair
-        </span>
-      )}
       <p className="text-sm uppercase tracking-[0.2em] opacity-80">{name}</p>
       <h3 className="mt-2 font-display text-2xl">{subtitle}</h3>
       <div className="mt-6 flex items-end gap-1">
