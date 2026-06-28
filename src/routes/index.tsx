@@ -680,15 +680,28 @@ function ContactLink({
 function Footer() {
   return (
     <footer className="border-t border-black/5 bg-background py-5">
-      <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 text-sm text-muted-foreground md:flex-row">
-        <Logo />
-        <div className="flex flex-col items-center gap-3 text-center sm:flex-row sm:gap-6">
-          <a href="#afspraken" className="transition hover:text-foreground">Afspraken</a>
-          <span className="hidden text-black/10 sm:inline">|</span>
-          <p>KVK 69612323 · BTW NL001618259B98</p>
-          <span className="hidden text-black/10 sm:inline">|</span>
-          <p>© {new Date().getFullYear()} Hus Woeffies — Rotterdam</p>
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-4 px-6 text-sm text-muted-foreground">
+        <div className="flex w-full flex-col items-center justify-between gap-6 md:flex-row">
+          <Logo />
+          <div className="flex flex-col items-center gap-3 text-center sm:flex-row sm:gap-6">
+            <a href="#afspraken" className="transition hover:text-foreground">Afspraken</a>
+            <span className="hidden text-black/10 sm:inline">|</span>
+            <p>KVK 69612323 · BTW NL001618259B98</p>
+            <span className="hidden text-black/10 sm:inline">|</span>
+            <p>© {new Date().getFullYear()} Hus Woeffies — Rotterdam</p>
+          </div>
         </div>
+        <p className="text-center text-xs text-muted-foreground">
+          Voor de bouw van een website of een nieuwsbrief, kijk op{" "}
+          <a
+            href="https://wereldkundig.nl/sitebouw"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary-glow underline-offset-4 transition hover:underline"
+          >
+            wereldkundig.nl/sitebouw
+          </a>
+        </p>
       </div>
     </footer>
   );
